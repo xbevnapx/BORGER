@@ -1,0 +1,484 @@
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    width: 100%;
+    height: 200px;
+}
+
+.header .header-left {
+    width: 25%;
+    height: 200px;
+}
+
+.header .header-left .header-img {
+    width: 75%;
+    height: 200px;
+    margin-top: 42px;
+    margin-bottom: 42px;
+    float: right;
+    background-image: url(images/burgericon.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+.banner-blue {
+    width: 100%;
+    height: 760px;
+    background-image: url(images/banner.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.burger-image {
+    position: absolute; 
+    top: 750px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    width: 319px; 
+    height: 2350px; 
+    z-index: 9999; 
+    background-image: url(images/burgerman.png); 
+    background-size: 316px; 
+    background-repeat: no-repeat; 
+    background-position: center;
+}
+
+.body-area {
+    width: 100%;
+    height: 780px;
+}
+
+.body-area .left {
+    width: 50%;
+    height: 780px;
+    float: left;
+}
+
+.body-area .left .shop {
+    width: 480px;
+    height: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 146px;
+    background-color: #f9cdc7;
+    border-radius: 15px;
+    box-sizing: border-box;
+    padding: 35px;
+    transition: background-color 0.3s ease; 
+}
+
+.body-area .left .shop:hover {
+    background-color: #6c969f; /* Square changes color */
+}
+
+.body-area .left .shop .shop-inside {
+    width: auto;
+    height: 97%;
+    border: 6px solid white;
+    border-radius: 15px;
+}
+
+.body-area .left .shop .shop-inside h2 {
+    font-family: curve, serif;
+    color: #6c969f; 
+    margin-top: 130px;
+    text-align: center;
+    font-size: 98px;
+    transition: color 0.3s ease; 
+}
+
+.body-area .left .shop:hover .shop-inside h2 {
+    color: #f9cdc7; /* Text changes color when the square is hovered */
+}
+
+.body-area .left .shop a {
+    text-decoration: none; /* Removes the underline */
+    color: inherit; /* Inherits color from its parent */
+}
+
+.body-area .right {
+    width: 50%;
+    height: 780px;
+    float: left;
+}
+
+.body-area .right .faq {
+    width: 480px;
+    height: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 146px;
+    background-color: #f9cdc7;
+    border-radius: 15px;
+    box-sizing: border-box;
+    padding: 35px;
+    transition: background-color 0.3s ease; 
+}
+
+.body-area .right .faq:hover {
+    background-color: #6c969f; 
+}
+
+.body-area .right .faq .faq-inside {
+    width: auto;
+    height: 97%;
+    border: 6px solid white;
+    border-radius: 15px;
+}
+
+.body-area .right .faq .faq-inside h2 {
+    font-family: curve, serif;
+    color: #6c969f; 
+    margin-top: 130px;
+    text-align: center;
+    font-size: 98px;
+    transition: color 0.3s ease; 
+}
+
+.body-area .right .faq:hover .faq-inside h2 {
+    color: #f9cdc7; 
+}
+
+.body-area .right .faq a {
+    text-decoration: none; 
+    color: inherit; 
+}
+
+/* Promo Box Container */
+.promo-box {
+    width: 100%;
+    height: 310px;
+    background-color: #e3f8d3;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 0;
+    text-align: center;
+    align-items: center;
+}
+
+/* Individual Promo Items */
+.promo-item {
+    display: inline-block;
+}
+
+/* Icons */
+.promo-item .promo-icon {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Text Below Icons */
+.promo-item .promo-text {
+    font-family: alternate-gothic-condensed-a, sans-serif;
+    font-size: 20px;
+    color: #704c91;
+    margin: 0;
+}
+
+/* Assign Background Images */
+.promo1 .promo-icon {
+    background-image: url(images/promo1.png);
+}
+
+.promo2 .promo-icon {
+    background-image: url(images/promo2.png);
+}
+
+.promo3 .promo-icon {
+    background-image: url(images/promo3.png);
+}
+
+.promo4 .promo-icon {
+    background-image: url(images/promo4.png);
+}
+
+.banner-purple {
+    width: 100%;
+    height: 760px;
+    background-image: url(images/purpleburger.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}    
+
+.purple-spacer {
+    width: 50%;
+    height: 760px;
+    float: left;
+}
+
+.testimony {
+    width: 50%;
+    height: 760px;
+    float: left;
+}
+
+.testimony .lefttest {
+    width: 50%;
+    height: 760px;
+    float: left;
+}
+
+.testimony .righttest {
+    width: 50%;
+    height: 760px;
+    float: left;
+    font-family: bebas-neue-semirounded, sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    color: #6c969f;
+}
+
+.footer-spacer {
+    width: 100%;
+    height: 200px;
+}
+
+.footer {
+    width: 100%;
+    height: 125px;
+}
+
+.footer .footerleft {
+    width: 25%;
+    height: 125px;
+    float: left;
+}
+
+.footer .footermiddle {
+    width: 50%;
+    height: 125px;
+    float: left;
+    background-image: url(images/SOCIALS.png);
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.footer .footerright {
+    width: 25%;
+    height: 125px;
+    float: left;
+}
+
+/* FAQ Page starts */
+
+.no-scroll {
+    overflow: hidden;
+}
+
+.left-section {
+    width: 30%;
+    height: 100vh;
+    background-color: #c8df98; /* Initial background color */
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease; /* Smooth transition for background */
+    cursor: pointer; /* Indicate the hover action */
+}
+
+.left-section:hover {
+    background-color: #72a79f; /* Swap colors on hover */
+}
+
+.faq-title h2 {
+    font-family: bebas-neue-semirounded, sans-serif;
+    font-size: 250px;
+    color: #72a79f; /* Initial title color */
+    text-align: center;
+    transition: color 0.3s ease; /* Smooth transition for text color */
+}
+
+.left-section:hover .faq-title h2 {
+    color: #c8df98; /* Swap to match the initial background color */
+}
+
+.right-section {
+    width: 70%;
+    height: 100vh;
+    background-color: #fbe8df;
+    float: left;
+}
+
+.second-top-section {
+    width: 100%;
+    height: 60px;
+    float: left;
+}
+
+.pink-left-spacer {
+    width: 10%;
+    height: 100%;
+    float: left;
+}
+
+.q-and-a {
+    width: 30%;
+    height: 100%;
+    font-family: bebas-neue-by-fontfabric, sans-serif;
+    color: #72a79f;
+    float: left;
+}
+
+.highlight {
+    color: #704c91;
+}
+
+.pink-right-spacer {
+    width: 10%;
+    height: 100%;
+    float: left;
+}
+
+.triple-burger {
+    width: 50%;
+    height: 180%;
+    float: left;
+    background-image: url(images/tripleburger.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/* Shop Page Starts */
+
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.shop-page {
+    margin: 0;
+    width: 100%;
+    height: auto;
+}
+
+.shop-top-section {
+    width: 100%;
+    height: auto;
+    font-family: soap, sans-serif;
+    color: #aa98b5;
+    text-align: center;
+    font-size: 95px;
+    overflow: hidden;
+}
+
+.starter-title {
+    font-family: curve, serif;
+    color: #f0aa89;
+    text-align: center;
+    font-size: 170px;
+}
+
+p {
+    margin: 0;
+}
+
+.shop-second-section {
+    width: 100%;
+    height: 677px;
+    background-image: url(images/2ndpurplebanner.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+.left-purple-spacer {
+    width: 12.5%;
+    height: 677px;
+    float: left;
+}
+
+.basic-borger,
+.tall-borger,
+.taller-borger,
+.insane-borger,
+.mega-borger,
+.special-borger {
+    width: 25%;
+    height: 677px;
+    background-size: 290px;
+    background-repeat: no-repeat;
+    float: left;
+    background-position: center;
+    transition: opacity 0.3s ease;
+    cursor: pointer;
+    position: relative;
+}
+
+.basic-borger {
+    background-image: url(images/starter1.png);
+}
+
+.tall-borger {
+    background-image: url(images/starter2.png);
+}
+
+.taller-borger {
+    background-image: url(images/starter3.png);
+}
+
+.insane-borger {
+    background-image: url(images/starter4.png);
+}
+
+.mega-borger {
+    background-image: url(images/starter5.png);
+}
+
+.special-borger {
+    background-image: url(images/starter6.png);
+}
+
+/* Hover Effect: Only the image becomes slightly transparent */
+.basic-borger:hover,
+.tall-borger:hover,
+.taller-borger:hover,
+.insane-borger:hover,
+.mega-borger:hover,
+.special-borger:hover {
+    opacity: 0.8;
+}
+
+.borger-title {
+    font-family: bebas-neue-semirounded, sans-serif;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 515px;
+    color: #5e5c4f;
+}
+
+.middle-shop-spacer {
+    width: 100%;
+    height: 300px;
+    float: left;
+}
+
+.exclusives-title {
+    font-family: curve, serif;
+    color: #89ae47;
+    text-align: center;
+    font-size: 170px;
+    margin-top: 100px;
+}
+
+.shop-third-section {
+    width: 100%;
+    height: 677px;
+    background-image: url(images/orangebanner.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+
